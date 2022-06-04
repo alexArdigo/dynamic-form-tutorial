@@ -7,7 +7,7 @@ function App() {
     age: ''
   }
   ])
-
+ 
   const handleFormChange = (index, event) => {
     let data = [...inputFields]
     data[index][event.target.name] = event.target.name;
